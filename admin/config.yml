@@ -1,0 +1,175 @@
+backend:
+  name: github
+  repo: Fubzay/EtownHMG
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+site_url: https://etownhmg.com
+display_url: https://etownhmg.com
+logo_url: https://etownhmg.com/favicon.ico
+
+collections:
+
+  # ── MAIN SITE ──────────────────────────────────────
+  - name: "main"
+    label: "Main Website"
+    files:
+
+      - name: "homepage"
+        label: "Homepage (index.html)"
+        file: "_data/homepage.json"
+        fields:
+
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Headline Line 1", name: "line1", widget: "string", default: "Mini golf,"}
+              - {label: "Headline Line 2", name: "line2", widget: "string", default: "food, fun &"}
+              - {label: "Headline Line 3 (italic green)", name: "line3", widget: "string", default: "great drinks."}
+              - {label: "Description", name: "desc", widget: "text", default: "Elizabethtown's favorite outdoor destination."}
+              - {label: "Primary Button Text", name: "btn1", widget: "string", default: "Plan Your Visit"}
+              - {label: "Secondary Button Text", name: "btn2", widget: "string", default: "View Menu"}
+
+          - label: "Hours"
+            name: "hours"
+            widget: "object"
+            fields:
+              - {label: "Mon–Thu", name: "mon_thu", widget: "string", default: "4PM – 9PM"}
+              - {label: "Friday", name: "friday", widget: "string", default: "4PM – 10PM"}
+              - {label: "Saturday", name: "saturday", widget: "string", default: "10AM – 10PM"}
+              - {label: "Sunday", name: "sunday", widget: "string", default: "12PM – 8PM"}
+              - {label: "Closure Notice", name: "closure", widget: "string", default: "Follow us on Facebook for weather closures"}
+
+          - label: "Special Hours Banner"
+            name: "special"
+            widget: "object"
+            fields:
+              - {label: "Show Banner", name: "enabled", widget: "boolean", default: false}
+              - {label: "Banner Label (e.g. Spring Break Hours)", name: "label", widget: "string", default: "Spring Break Hours"}
+              - {label: "Mon–Sat Hours", name: "weekday", widget: "string", default: "10AM–10PM"}
+              - {label: "Sunday Hours", name: "sunday", widget: "string", default: "10AM–8PM"}
+              - {label: "Banner Color", name: "color", widget: "color", default: "#2e7d4f"}
+
+          - label: "Golf Pricing"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - {label: "Adult Name", name: "adult_name", widget: "string", default: "Adult"}
+              - {label: "Adult Price", name: "adult_price", widget: "string", default: "$13"}
+              - {label: "Adult Description", name: "adult_desc", widget: "text"}
+              - {label: "Junior Name", name: "junior_name", widget: "string", default: "Junior"}
+              - {label: "Junior Price", name: "junior_price", widget: "string", default: "$11"}
+              - {label: "Junior Description", name: "junior_desc", widget: "text"}
+              - {label: "Little Ones Name", name: "little_name", widget: "string", default: "Little Ones"}
+              - {label: "Little Ones Price", name: "little_price", widget: "string", default: "Free"}
+              - {label: "Little Ones Description", name: "little_desc", widget: "text"}
+
+          - label: "Party Room"
+            name: "party"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", default: "Book the Par-Tee Room"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Amenity 1", name: "am1", widget: "string", default: "Course-overlook views"}
+              - {label: "Amenity 2", name: "am2", widget: "string", default: "3 flat-screen TVs"}
+              - {label: "Amenity 3", name: "am3", widget: "string", default: "Indoor bartop seating"}
+              - {label: "Amenity 4", name: "am4", widget: "string", default: "Food service tables"}
+              - {label: "Amenity 5", name: "am5", widget: "string", default: "By appointment only"}
+
+          - label: "Contact Info"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Phone Number", name: "phone", widget: "string", default: "(270) 900-1331"}
+              - {label: "Address Line 1", name: "addr1", widget: "string", default: "1030 Executive Dr."}
+              - {label: "Address Line 2", name: "addr2", widget: "string", default: "Elizabethtown, KY 42701"}
+              - {label: "Email", name: "email", widget: "string", default: "heartlandminigolf@gmail.com"}
+              - {label: "Facebook URL", name: "facebook", widget: "string", default: "https://www.facebook.com/Heartland-Mini-Golf-105302551483945"}
+              - {label: "Instagram URL", name: "instagram", widget: "string", default: "https://www.instagram.com/heartlandminigolf"}
+              - {label: "Copyright Line", name: "copyright", widget: "string", default: "© 2026 Heartland Mini Golf. Elizabethtown, KY."}
+
+  # ── CONTACT PAGE ───────────────────────────────────
+  - name: "contact_page"
+    label: "Contact Page"
+    files:
+
+      - name: "contact"
+        label: "Contact Page (contact.html)"
+        file: "_data/contact.json"
+        fields:
+
+          - label: "Hours"
+            name: "hours"
+            widget: "object"
+            fields:
+              - {label: "Mon–Thu", name: "mon_thu", widget: "string", default: "4PM – 9PM"}
+              - {label: "Friday", name: "friday", widget: "string", default: "4PM – 10PM"}
+              - {label: "Saturday", name: "saturday", widget: "string", default: "10AM – 10PM"}
+              - {label: "Sunday", name: "sunday", widget: "string", default: "12PM – 8PM"}
+
+          - label: "Contact Info"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Phone Number", name: "phone", widget: "string", default: "(270) 900-1331"}
+              - {label: "Address Line 1", name: "addr1", widget: "string", default: "1030 Executive Dr."}
+              - {label: "Address Line 2", name: "addr2", widget: "string", default: "Elizabethtown, KY 42701"}
+              - {label: "Email", name: "email", widget: "string", default: "heartlandminigolf@gmail.com"}
+              - {label: "Facebook URL", name: "facebook", widget: "string", default: "https://www.facebook.com/Heartland-Mini-Golf-105302551483945"}
+              - {label: "Instagram URL", name: "instagram", widget: "string", default: "https://www.instagram.com/heartlandminigolf"}
+
+  # ── BOOKING PAGE ───────────────────────────────────
+  - name: "booking_page"
+    label: "Booking Page"
+    files:
+
+      - name: "booking"
+        label: "Party Room Booking (booking.html)"
+        file: "_data/booking.json"
+        fields:
+
+          - label: "Page Settings"
+            name: "settings"
+            widget: "object"
+            fields:
+              - {label: "Calendly URL", name: "calendly_url", widget: "string", default: "https://calendly.com/koltonpgeorge"}
+              - {label: "Booking Window Text", name: "window_text", widget: "string", default: "Next 30 Days"}
+              - {label: "Call for Bookings Beyond Text", name: "beyond_text", widget: "text", default: "Online booking covers the next 30 days. For events beyond that — or if you have special requests — just give us a call."}
+
+          - label: "Package 1 — Hole One"
+            name: "pkg1"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string", default: "Basic Package"}
+              - {label: "Price", name: "price", widget: "string", default: "$200"}
+              - {label: "Feature 1", name: "f1", widget: "string", default: "20 Rounds of Mini Golf"}
+              - {label: "Feature 2", name: "f2", widget: "string", default: "$5 for additional golfers"}
+              - {label: "Feature 3", name: "f3", widget: "string", default: "2 Hour Room Rental"}
+
+          - label: "Package 2 — Hole Two"
+            name: "pkg2"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string", default: "Popular Package"}
+              - {label: "Price", name: "price", widget: "string", default: "$250"}
+              - {label: "Feature 1", name: "f1", widget: "string", default: "25 Rounds of Mini Golf"}
+              - {label: "Feature 2", name: "f2", widget: "string", default: "$5 for additional golfers"}
+              - {label: "Feature 3", name: "f3", widget: "string", default: "2 Hour Room Rental"}
+              - {label: "Feature 4", name: "f4", widget: "string", default: "Fountain Drinks"}
+              - {label: "Feature 5", name: "f5", widget: "string", default: "Choice of Decor"}
+
+          - label: "Package 3 — Hole Three"
+            name: "pkg3"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string", default: "Complete Package"}
+              - {label: "Price", name: "price", widget: "string", default: "$300"}
+              - {label: "Feature 1", name: "f1", widget: "string", default: "30 Rounds of Mini Golf"}
+              - {label: "Feature 2", name: "f2", widget: "string", default: "$5 for additional golfers"}
+              - {label: "Feature 3", name: "f3", widget: "string", default: "2 Hour Room Rental"}
+              - {label: "Feature 4", name: "f4", widget: "string", default: "Fountain Drinks"}
+              - {label: "Feature 5", name: "f5", widget: "string", default: "Choice of Decor"}
+              - {label: "Feature 6", name: "f6", widget: "string", default: "2 Course Favorite Pizzas"}
