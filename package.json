@@ -1,0 +1,12 @@
+{
+  "name": "etownhmg",
+  "version": "1.0.0",
+  "description": "Heartland Mini Golf Website",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

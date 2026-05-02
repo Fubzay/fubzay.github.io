@@ -1,0 +1,16 @@
+{
+  "hours": {
+    "mon_thu": "4PM – 9PM",
+    "friday": "4PM – 10PM",
+    "saturday": "10AM – 10PM",
+    "sunday": "12PM – 8PM"
+  },
+  "contact": {
+    "phone": "(270) 900-1331",
+    "addr1": "1030 Executive Dr.",
+    "addr2": "Elizabethtown, KY 42701",
+    "email": "heartlandminigolf@gmail.com",
+    "facebook": "https://www.facebook.com/Heartland-Mini-Golf-105302551483945",
+    "instagram": "https://www.instagram.com/heartlandminigolf"
+  }
+}

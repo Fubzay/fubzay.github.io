@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "line1": "Mini golf,",
+    "line2": "food, fun &",
+    "line3": "great drinks.",
+    "desc": "Elizabethtown's favorite outdoor destination. 18-hole course, game yard, rooftop bar, food truck, and a private party room — all in one place.",
+    "btn1": "Plan Your Visit",
+    "btn2": "View Menu"
+  },
+  "hours": {
+    "mon_thu": "4PM – 9PM",
+    "friday": "4PM – 10PM",
+    "saturday": "10AM – 10PM",
+    "sunday": "12PM – 8PM",
+    "closure": "Follow us on Facebook for weather closures"
+  },
+  "special": {
+    "enabled": false,
+    "label": "Spring Break Hours",
+    "weekday": "10AM–10PM",
+    "sunday": "10AM–8PM",
+    "color": "#2e7d4f"
+  },
+  "pricing": {
+    "adult_name": "Adult",
+    "adult_price": "$13",
+    "adult_desc": "Ages 11+. Includes a full 18-hole round with putter and ball. Perfect for date nights, groups, and competitive putters.",
+    "junior_name": "Junior",
+    "junior_price": "$11",
+    "junior_desc": "Ages 5–10. A full round of fun on our 18-hole course — putter and ball included. Great for kids getting into the game.",
+    "little_name": "Little Ones",
+    "little_price": "Free",
+    "little_desc": "Ages 4 & under play free! Bring the whole family without worry — the littlest putters are always on us."
+  },
+  "party": {
+    "title": "Book the Par-Tee Room",
+    "desc": "Perfect for birthday parties, corporate outings, bachelor/bachelorette parties, and more. Our private room overlooks the course and comes fully equipped.",
+    "am1": "Course-overlook views",
+    "am2": "3 flat-screen TVs",
+    "am3": "Indoor bartop seating",
+    "am4": "Food service tables",
+    "am5": "By appointment only"
+  },
+  "contact": {
+    "phone": "(270) 900-1331",
+    "addr1": "1030 Executive Dr.",
+    "addr2": "Elizabethtown, KY 42701",
+    "email": "heartlandminigolf@gmail.com",
+    "facebook": "https://www.facebook.com/Heartland-Mini-Golf-105302551483945",
+    "instagram": "https://www.instagram.com/heartlandminigolf",
+    "copyright": "© 2026 Heartland Mini Golf. Elizabethtown, KY."
+  }
+}

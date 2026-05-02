@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "calendly_url": "https://calendly.com/koltonpgeorge",
+    "window_text": "Next 30 Days",
+    "beyond_text": "Online booking covers the next 30 days. For events beyond that — or if you have special requests — just give us a call and we'll get you sorted out personally."
+  },
+  "pkg1": {
+    "name": "Basic Package",
+    "price": "$200",
+    "f1": "20 Rounds of Mini Golf",
+    "f2": "$5 for additional golfers",
+    "f3": "2 Hour Room Rental"
+  },
+  "pkg2": {
+    "name": "Popular Package",
+    "price": "$250",
+    "f1": "25 Rounds of Mini Golf",
+    "f2": "$5 for additional golfers",
+    "f3": "2 Hour Room Rental",
+    "f4": "Fountain Drinks",
+    "f5": "Choice of Decor"
+  },
+  "pkg3": {
+    "name": "Complete Package",
+    "price": "$300",
+    "f1": "30 Rounds of Mini Golf",
+    "f2": "$5 for additional golfers",
+    "f3": "2 Hour Room Rental",
+    "f4": "Fountain Drinks",
+    "f5": "Choice of Decor",
+    "f6": "2 Course Favorite Pizzas"
+  }
+}
